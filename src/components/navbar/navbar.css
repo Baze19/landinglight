@@ -1,0 +1,21 @@
+.navbar{
+    
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+#links {
+    color: #000000bd !important;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#px {
+margin-right: 4rem;
+}
+.Pic{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+

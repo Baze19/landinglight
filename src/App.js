@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import Navbar from './components/navbar/navbar';
 import './App.css';
+import Payment from './components/payment/Payment';
+import CardContainer from './components/cardContainer/CardContainer';
+import Subtotal from './components/subTotal/Subtotal';
+import CompletePayment from './components/completePayment/CompletePayment';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+
+        <div class="">
+            <Navbar />
+            <hr className='hr container' />
+            <Payment />
+            <div className="container">
+                <CardContainer />
+            </div>
+            <hr className='hrs container' />
+            <Subtotal />
+            <hr className='hrr container' />
+            <CompletePayment />
+        </div>
+
+    )
 }
 
-export default App;
+export default App

@@ -1,0 +1,50 @@
+.carddesign {
+    max-width: 40%;
+    background-image: linear-gradient(to right,#dc1471 ,#7b68ee);
+    padding: 2rem;
+    color: white;
+    text-align: justify;
+    margin-bottom: 2rem;
+    border-radius: 0.6rem;
+    align-items: center;
+}
+
+.cardNumber .num {
+    font-size: small;
+    font-weight:400;
+    letter-spacing: 1px;
+    
+}
+.carddesign p {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.red {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.circle1,
+  .circle2 {
+    background: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+  }
+
+  .circle2 {
+    background-color:#ffa500 ;
+   
+    
+  }
+
+  .circle1 {
+   background-color:red;
+      margin-right: -1rem;
+      opacity: 0.6;
+  }
+  

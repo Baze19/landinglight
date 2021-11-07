@@ -1,0 +1,41 @@
+.visa{
+    margin-left: -14rem;
+    background-color:	#000080;
+    margin-bottom: 4.4rem;
+    padding: 0.3rem;
+    border-radius: 3px;
+    color: white;
+    font-size:small;
+    font-weight: bold;
+
+    
+}
+.new {
+    text-align: center;
+    margin-left: 1.7rem;
+    background-color:	#f8f8ff;
+    margin-bottom: 4.5rem;
+    padding: 0.3rem;
+    border-radius: 3px;
+    font-size:xx-small;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.o {
+    color: tomato;
+}
+.loggo i{
+    font-size: x-large !important;
+}
+
+.pay{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color: #000080;
+}
+.pal{
+    font-size: large;
+    font-weight: bold;
+    color: 	#6495ed;
+}
